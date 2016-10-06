@@ -24,7 +24,7 @@ body {
 
 header {
   background-color: #e2e2e2;
-    text-align: center;
+  text-align: center;
 }
 
 a {
@@ -46,12 +46,20 @@ li {
 }
 
 
-@media only screen and (min-width: 35em) {
 
+@media only screen and (min-width: 60em) {
+header {
+  text-align: left;
 }
-@media only screen and (min-width: 60em){
-
 }
-@media only screen and (min-width: 90em){
 
+@media only screen and (min-width: 90em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  ul {
+    text-align: right;
+  }
 }
