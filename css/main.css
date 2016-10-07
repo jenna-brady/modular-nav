@@ -23,16 +23,19 @@ body {
 }
 
 header {
-  background-color: #e2e2e2;
   text-align: center;
 }
 
-a {
+.section-dark {
+  background-color: #e2e2e2;
+}
+
+a, a:visited {
   text-decoration: none;
   color: #0074d9;
 }
 
-a:hover {
+a:hover, .current:visited, .current {
   background-color: #0074d9;
   color: #fff;
 }
